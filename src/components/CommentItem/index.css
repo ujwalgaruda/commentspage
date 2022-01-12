@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700&display=swap');
+.amber {
+    background-color: #f59e0b;
+  }
+  
+  .blue {
+    background-color: #0b69ff;
+  }
+  
+  .orange {
+    background-color: #f97316;
+  }
+  
+  .emerald {
+    background-color: #10b981;
+  }
+  
+  .teal {
+    background-color: #14b8a6;
+  }
+  
+  .red {
+    background-color: #b91c1c;
+  }
+  
+  .light-blue {
+    background-color: #0ea5e9;
+  }
+  
+  /* Write your CSS here */
+  .comment-header-section {
+    display: flex;
+  }
+  .initial-round-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 10px;
+  }
+  .initial {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+  }
+  .name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #15171a;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .time {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #475569;
+  }
+  .initial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    margin-top: 18px;
+    flex-shrink: 0;
+    margin-right: 8px;
+  }
+  .name-time-container {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    align-items: center;
+  }
+  .like-delete-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .like-button {
+    background-color: transparent;
+    border-style: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #475569;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .active {
+    color: #0ea5e9;
+  }
+  .like-btn-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .delete-btn {
+    background-color: transparent;
+    border-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .delete {
+    width: 24px;
+    height: 24px;
+  }
+  .comment {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #475569;
+  }
+  
